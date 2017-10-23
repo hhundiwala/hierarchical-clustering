@@ -28,4 +28,7 @@ The distance considered is average of distances between 2 clusters. Average of d
 #### Centroid Linkage:
 The distance considered here is, the distance between centroids of two clusters.
 
+### Implementation
+We use the concept of dynamic programming (memorisation technique) to achieve better time complexity. We will be maintaining the distance matrix which will maintain the distances between all the datapoints present. Thus, if we have "n" number of datapoints our distance matrix will be of order nxn. This matrix will be symmetric matrix. Since we want to merge the two closest datapoints, we will find the minimum distance and we will merge the 2 clusters updating the clusters distance from all other datapoints. We will reapeat the above step untill all the datapoints are under one cluster.  
+
 For more detailed description of algorithm and code visit: http://harshhundiwala.com 
