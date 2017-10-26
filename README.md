@@ -1,5 +1,5 @@
 # hierarchical-clustering
-This is python implementation of hierarchical clustering
+This is python implementation of hierarchical clustering. This implementation use dynamic programming approach(memorization).
 
 ### what is hierarchical clustering?
 It is a clustering algorithm, which clusters the datapoints in group. This algorithm follows aglomerative approach i.e. it starts with each datapoint as cluster and goes on merging the clusters based on similarity.
